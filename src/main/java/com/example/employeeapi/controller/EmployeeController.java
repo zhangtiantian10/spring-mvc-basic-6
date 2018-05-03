@@ -18,8 +18,6 @@ public class EmployeeController {
     @RequestMapping("/employees")
     String getEmployees(Model model) {
 
-        model.addAttribute("message", "hello world");
-
         return "employees";
     }
 
